@@ -753,6 +753,7 @@ p {
   padding-top: 40px;
 }
 
+
 .portfolio-details .portfolio-details-slider img {
   width: 100%;
 }
@@ -785,16 +786,19 @@ p {
   margin-bottom: 20px;
   padding-bottom: 20px;
   border-bottom: 1px solid #eee;
+  color: #fff;
 }
 
 .portfolio-details .portfolio-info ul {
   list-style: none;
   padding: 0;
   font-size: 15px;
+  color: #fff;
 }
 
 .portfolio-details .portfolio-info ul li+li {
   margin-top: 10px;
+  color: #fff;
 }
 
 .portfolio-details .portfolio-description {
@@ -805,6 +809,7 @@ p {
   font-size: 26px;
   font-weight: 700;
   margin-bottom: 20px;
+  color: #fff;
 }
 
 .portfolio-details .portfolio-description p {
