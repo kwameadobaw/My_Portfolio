@@ -26,6 +26,7 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/mode.css" rel="stylesheet">
 </head>
 
 <body>
@@ -41,7 +42,7 @@
         <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
         <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
         <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
-        <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
+        <!-- <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li> -->
         <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Services</span></a></li>
         <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
       </ul>
@@ -51,6 +52,20 @@
 
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex flex-column justify-content-center">
+
+    <!-- <div class="toggle-container">
+      <input type="checkbox" id="dark-mode-toggle" name="toggle" class="toggle-switch" id="toggle-0" checked>
+      <label class="toggle-label" for="toggle-0">
+          <div class="toggle-inner"></div>
+          <div class="toggle-switch"></div>
+      </label>
+  </div> -->
+
+    <div class="toggle-container">
+      <input type="checkbox" id="dark-mode-toggle" class="toggle-switch">
+      <label for="dark-mode-toggle"><i class='bx bx-moon' ></i></label>
+    </div>
+
     <div class="container" data-aos="zoom-in" data-aos-delay="100">
       <h1>Kwame Adobaw Junior</h1>
       <p>I'm a <span class="typed" data-typed-items="Designer, Developer, Freelancer, Photographer"></span></p>
@@ -755,6 +770,7 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script src="assets/js/script.js"></script>
 
 </body>
 
